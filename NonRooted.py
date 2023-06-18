@@ -1384,6 +1384,12 @@ async def spam(e):
 @rooted.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@qwe.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@wer.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@ert.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@rty.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@tyu.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@yui.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 
 async def spam(e):
     usage = "Module Name = Raid\n\nCommand:\n\n.raid <count> <Username of User>\n\n.raid <count> <reply to a User>\n\nCount must be a integer."
@@ -1451,6 +1457,13 @@ async def spam(e):
 @rooted.on(events.NewMessage(incoming=True))
 @raj.on(events.NewMessage(incoming=True))
 @put.on(events.NewMessage(incoming=True))
+@qwe.on(events.NewMessage(incoming=True))
+@wer.on(events.NewMessage(incoming=True))
+@ert.on(events.NewMessage(incoming=True))
+@rty.on(events.NewMessage(incoming=True))
+@tyu.on(events.NewMessage(incoming=True))
+@yui.on(events.NewMessage(incoming=True))
+
 
 
 async def _(event):
@@ -1493,6 +1506,12 @@ async def _(event):
 @rooted.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@qwe.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@wer.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@ert.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@rty.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@tyu.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
+@yui.on(events.NewMessage(incoming=True, pattern=r"\.replyraid"))
 
 
 async def _(e):
@@ -1552,6 +1571,13 @@ async def _(e):
 @rooted.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@qwe.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@wer.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@ert.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@rty.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@tyu.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+@yui.on(events.NewMessage(incoming=True, pattern=r"\.dreplyraid"))
+
 
 async def _(e):
     global que
@@ -1613,6 +1639,12 @@ async def _(e):
 @rooted.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@qwe.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@wer.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@ert.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@rty.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@tyu.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
+@yui.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
 
 async def ping(e):
     if e.sender_id in SMEX_USERS:
@@ -1657,6 +1689,13 @@ async def ping(e):
 @rooted.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@qwe.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@wer.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@ert.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@rty.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@tyu.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+@yui.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
+
 async def restart(e):
     if e.sender_id in SMEX_USERS:
         text = "RESTARTED\n\nPlease wait till it reboots..."
@@ -1734,6 +1773,12 @@ async def restart(e):
 @rooted.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@qwe.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@wer.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@ert.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@rty.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@tyu.on(events.NewMessage(incoming=True, pattern=r"\.help"))
+@yui.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 
 async def help(e):
     if e.sender_id in SMEX_USERS:
@@ -1858,6 +1903,30 @@ if len(sys.argv) not in (1, 3, 4):
         put.disconnect()
     except Exception as e:
         pass
+    try:
+        qwe.disconnect()
+    except Exception as e:
+        pass
+    try:
+        wer.disconnect()
+    except Exception as e:
+        pass
+    try:
+        ert.disconnect()
+    except Exception as e:
+        pass
+    try:
+        rty.disconnect()
+    except Exception as e:
+        pass
+    try:
+        tyu.disconnect()
+    except Exception as e:
+        pass
+    try:
+        yui.disconnect()
+    except Exception as e:
+        pass
 else:
     try:
         idk.run_until_disconnected()
@@ -1957,5 +2026,29 @@ else:
         pass
     try:
         put.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        qwe.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        wer.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        ert.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        rty.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        tyu.run_until_disconnected()
+    except Exception as e:
+        pass
+    try:
+        yui.run_until_disconnected()
     except Exception as e:
         pass
