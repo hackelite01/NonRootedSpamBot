@@ -13,7 +13,7 @@
 ### String Session
 No Requirement of API ID and API HASH
 
-   - Generate on Repl [![Run on Repl.it](https://replit.com/@hackelite01/NonRooted-SpamBot#main.py)]
+   - Generate on Repl [![Run on Repl.it](https://img.shields.io/badge/Replit-F26207.svg?style=for-the-badge&logo=Replit&logoColor=white)(https://replit.com/@hackelite01/NonRooted-SpamBot#main.py)
 
 # You can Use these API ID and API HASH
 ```
