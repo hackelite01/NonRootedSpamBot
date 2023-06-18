@@ -42,7 +42,12 @@ baish = STRING22
 teish = STRING23
 tfour = STRING24
 tfive = STRING25
-
+tsix = STRING26
+tsvn = STRING27
+ttit = STRING28
+tnn = STRING29
+trt = STRING30
+tro = STRING31
 
 idk = ""
 ydk = ""
@@ -69,7 +74,12 @@ non = ""
 rooted = ""
 raj = ""
 put = ""
-
+qwe = ""
+wer = ""
+ert = ""
+rty = ""
+tyu = ""
+yui = ""
 
 que = {}
 
@@ -103,6 +113,12 @@ async def start_mayank():
     global rooted
     global raj
     global put
+    global qwe
+    global wer
+    global ert
+    global rty
+    global tyu
+    global yui
     
     if smex:
         session_name = str(smex)
@@ -708,7 +724,7 @@ async def start_mayank():
         print("String 25 Found")
         put = TelegramClient(StringSession(session_name), a, b)
         try:
-            print("Booting Up The Client 1")
+            print("Booting Up The Client 25")
             await put.start()
             botme = await put.get_me()
             await put(functions.channels.JoinChannelRequest(channel="@MarcusUserbot"))
@@ -726,6 +742,152 @@ async def start_mayank():
             await put.start()
         except Exception as e:
             pass
+
+if tsix:
+        session_name = str(tsix)
+        print("String 26 Found")
+        qwe = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 26")
+            await qwe.start()
+            botme = await raj.get_me()
+            await qwe(functions.channels.JoinChannelRequest(channel="@hackelite01"))
+            await qwe(functions.channels.JoinChannelRequest(channel="@MarcusUserbot"))
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 26 not Found")
+        session_name = "startup"
+        qwe = TelegramClient(session_name, a, b)
+        try:
+            await qwe.start()
+        except Exception as e:
+            pass
+
+if tsvn:
+        session_name = str(tsvn)
+        print("String 27 Found")
+        wer = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 27")
+            await wer.start()
+            botme = await wer.get_me()
+            await wer(functions.channels.JoinChannelRequest(channel="@hackelite01"))
+            await wer(functions.channels.JoinChannelRequest(channel="@MarcusUserbot"))
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 27 not Found")
+        session_name = "startup"
+        wer = TelegramClient(session_name, a, b)
+        try:
+            await wer.start()
+        except Exception as e:
+            pass
+
+if ttit:
+        session_name = str(ttit)
+        print("String 28 Found")
+        ert = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 28")
+            await ert.start()
+            botme = await ert.get_me()
+            await ert(functions.channels.JoinChannelRequest(channel="@hackelite01"))
+            await ert(functions.channels.JoinChannelRequest(channel="@MarcusUserbot"))
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 28 not Found")
+        session_name = "startup"
+        ert = TelegramClient(session_name, a, b)
+        try:
+            await ert.start()
+        except Exception as e:
+            pass
+
+if tnn:
+        session_name = str(tnn)
+        print("String 29 Found")
+        rty = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 29")
+            await rty.start()
+            botme = await rty.get_me()
+            await rty(functions.channels.JoinChannelRequest(channel="@hackelite01"))
+            await rty(functions.channels.JoinChannelRequest(channel="@MarcusUserbot"))
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 29 not Found")
+        session_name = "startup"
+        rty = TelegramClient(session_name, a, b)
+        try:
+            await rty.start()
+        except Exception as e:
+            pass
+
+if trt:
+        session_name = str(trt)
+        print("String 30 Found")
+        tyu = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 30")
+            await tyu.start()
+            botme = await tyu.get_me()
+            await tyu(functions.channels.JoinChannelRequest(channel="@hackelite01"))
+            await tyu(functions.channels.JoinChannelRequest(channel="@MarcusUserbot"))
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 30 not Found")
+        session_name = "startup"
+        tyu = TelegramClient(session_name, a, b)
+        try:
+            await tyu.start()
+        except Exception as e:
+            pass
+
+if tro:
+        session_name = str(tro)
+        print("String 31 Found")
+        yui = TelegramClient(StringSession(session_name), a, b)
+        try:
+            print("Booting Up The Client 31")
+            await yui.start()
+            botme = await raj.get_me()
+            await yui(functions.channels.JoinChannelRequest(channel="@hackelite01"))
+            await yui(functions.channels.JoinChannelRequest(channel="@MarcusUserbot"))
+            botid = telethon.utils.get_peer_id(botme)
+            SMEX_USERS.append(botid)
+        except Exception as e:
+            print(e)
+            pass
+    else:
+        print("Session 31 not Found")
+        session_name = "startup"
+        yui = TelegramClient(session_name, a, b)
+        try:
+            await yui.start()
+        except Exception as e:
+            pass
+
+
    
    
 loop = asyncio.get_event_loop()
@@ -773,6 +935,12 @@ async def gifspam(e, smex):
 @rooted.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@qwe.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@wer.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@ert.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@rty.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@tyu.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@yui.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
 
 async def _(e):
     usage = "Module Name = Bio\n\nCommand:\n\n.bio <Message to set Bio of Userbot accounts>"
@@ -815,6 +983,12 @@ async def _(e):
 @rooted.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@qwe.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@wer.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@ert.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@rty.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@tyu.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@yui.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 
 async def _(e):
     usage = "Module Name = Join\n\nCommand:\n\n.join <Public Channel or Group Link/Username>"
@@ -857,6 +1031,12 @@ async def _(e):
 @rooted.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@qwe.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@wer.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@ert.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@rty.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@tyu.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@yui.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 
 
 
@@ -902,6 +1082,12 @@ async def _(e):
 @rooted.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+@qwe.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+@wer.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+@ert.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+@rty.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+@tyu.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
+@yui.on(events.NewMessage(incoming=True, pattern=r"\.pleave"))
 async def _(e):
     usage = "Module Name = Leave\n\nCommand:\n\n.leave <Channel or Chat ID>"
     if e.sender_id in SMEX_USERS:
@@ -946,6 +1132,12 @@ async def _(e):
 @rooted.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@qwe.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@wer.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@ert.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@rty.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@tyu.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
+@yui.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 
 async def _(e):
     usage = "Module Name = Leave\n\nCommand:\n\n.leave <Channel or Chat ID>"
@@ -991,6 +1183,12 @@ async def _(e):
 @rooted.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@qwe.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@wer.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@ert.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@rty.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@tyu.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@yui.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 async def spam(e):
     usage = "Module Name = Spam\n\nCommand:\n\n.spam <count> <message to spam>\n\n.spam <count> <reply to a message>\n\nCount must be a integer."
     error = "Spam Module can only be used till 100 count. For bigger spams use BigSpam."
@@ -1047,6 +1245,12 @@ async def spam(e):
 @rooted.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@qwe.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@wer.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@ert.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@rty.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@tyu.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
+@yui.on(events.NewMessage(incoming=True, pattern=r"\.delayspam"))
 
 async def spam(e):
     usage = "Module Name = Delayspam\n\nCommand:\n\n.delayspam <sleep time> <count> <message to spam>\n\n.delayspam <sleep time> <count> <reply to a message>\n\nCount and Sleeptime must be a integer."
@@ -1112,6 +1316,13 @@ async def spam(e):
 @rooted.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@qwe.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@wer.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@ert.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@rty.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@tyu.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+@yui.on(events.NewMessage(incoming=True, pattern=r"\.bigspam"))
+
 
 async def spam(e):
     usage = "Module Name = BigSpam\n\nCommand:\n\n.bigspam <count> <message to spam>\n\n.bigspam <count> <reply to a message>\n\nCount must be a integer."
