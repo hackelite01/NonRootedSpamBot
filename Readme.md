@@ -7,7 +7,7 @@
 # CREATOR
  [![telegram badge](https://img.shields.io/badge/hackelite01-30302f?style=for-the-badge&logo=telegram)](https://t.me/NonRootedInsaan)
 # FAST & STABLE
-# Deploy Up to 25 Bots in One time
+# Deploy Up to 30 Bots in One time
 ## Deploy on Heroku 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/hackelite01/NonRootedSpamBot)
 ### String Session
